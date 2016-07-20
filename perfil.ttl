@@ -15,10 +15,10 @@
 	foaf:homepage <https://www.facebook.com/yoLUkAsss>;
 	foaf:based_near <http://sws.geonames.org/3473374/>;
 	foaf:img <https://www.facebook.com/photo.php?fbid=1118580484831034&set=a.146290042060088.20381.100000372782790&type=3&theater>;
-	foaf:knows <http://www.dcc.uchile.cl/~dhernand/foaf.rdf#me>, <http://harth.org/andreas/foaf#ah> ;
-	foaf:interest wikidata:Q1578 , wikidata:Q54837;
-	ex:likesMovie wikidata:Q13794921 , wikidata:Q152105 .
+	foaf:knows <http://www.dcc.uchile.cl/~dhernand/foaf.rdf#me>, <http://harth.org/andreas/foaf#ah> , <https://raw.githubusercontent.com/LaimeJesus/lcbdg/master/perfil.ttl#yo> ; 
+	foaf:interest wikidata:Q288568 , wikidata:Q223341 , wikidata:Q1419151 ;
+	ex:likesMovie wikidata:Q15228 , wikidata:Q19347291 .
 	
 <> a foaf:Document ;
-	foaf:name "Perfil FOAF de Aidan"@es;
+	foaf:name "Perfil FOAF de ExiLio"@es;
 	foaf:primaryTopic <#yo> .
