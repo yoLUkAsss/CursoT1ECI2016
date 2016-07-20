@@ -1,0 +1,24 @@
+@base <http://aidanhogan.com/teaching/ba/labs/01/perfil.ttl> .
+
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex: <http://ex.org/movie#> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+
+<#yo> rdf:type foaf:Person;
+	foaf:name "Aidan Hogan";
+	foaf:firstName "Aidan";
+	foaf:surname "Hogan";
+	foaf:birthday "05-15";
+	foaf:age 31;
+	foaf:gender "masculino"@es;
+	foaf:homepage <http://aidanhogan.com>;
+	foaf:based_near <http://sws.geonames.org/3871336/>;
+	foaf:img <http://aidanhogan.com/img/me-hc.png>;
+	foaf:knows <http://www.dcc.uchile.cl/~dhernand/foaf.rdf#me>, <http://harth.org/andreas/foaf#ah> ;
+	foaf:interest wikidata:Q1578 , wikidata:Q54837;
+	ex:likesMovie wikidata:Q13794921 , wikidata:Q152105 .
+	
+<> a foaf:Document ;
+	foaf:name "Perfil FOAF de Aidan"@es;
+	foaf:primaryTopic <#yo> .
