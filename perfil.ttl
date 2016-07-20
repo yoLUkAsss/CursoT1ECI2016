@@ -1,4 +1,4 @@
-@base <http://aidanhogan.com/teaching/ba/labs/01/perfil.ttl> .
+@base <https://github.com/yoLUkAsss/CursoT1ECI2016/blob/master/perfil.ttl> .
 
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -6,15 +6,15 @@
 @prefix wikidata: <http://www.wikidata.org/entity/> .
 
 <#yo> rdf:type foaf:Person;
-	foaf:name "Aidan Hogan";
-	foaf:firstName "Aidan";
-	foaf:surname "Hogan";
-	foaf:birthday "05-15";
-	foaf:age 31;
+	foaf:name "Lucas Sandoval";
+	foaf:firstName "Lucas";
+	foaf:surname "Sandoval";
+	foaf:birthday "12-29";
+	foaf:age 22;
 	foaf:gender "masculino"@es;
-	foaf:homepage <http://aidanhogan.com>;
-	foaf:based_near <http://sws.geonames.org/3871336/>;
-	foaf:img <http://aidanhogan.com/img/me-hc.png>;
+	foaf:homepage <https://www.facebook.com/yoLUkAsss>;
+	foaf:based_near <http://sws.geonames.org/3473374/>;
+	foaf:img <https://www.facebook.com/photo.php?fbid=1118580484831034&set=a.146290042060088.20381.100000372782790&type=3&theater>;
 	foaf:knows <http://www.dcc.uchile.cl/~dhernand/foaf.rdf#me>, <http://harth.org/andreas/foaf#ah> ;
 	foaf:interest wikidata:Q1578 , wikidata:Q54837;
 	ex:likesMovie wikidata:Q13794921 , wikidata:Q152105 .
